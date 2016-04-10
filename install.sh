@@ -14,11 +14,14 @@ if [ -d ~/.vim ]
 then
     echo "You have a .vim folder. Backing dat up..."
     #mkdir ~/.vim_backup
+    echo "Need your password for \"sudo cp -r ~/.vim/* ~/.vim_backup/\""
     sudo cp -r ~/.vim/* ~/.vim_backup/
     echo "Your old .vim folder is backed up to ~/.vim_backup"
     rm -rf ~/.vim
 fi
 
+mkdir ~/.vim
+echo "Using sudo for copy operations...."
 sudo cp ./.vimrc ~/.vimrc;
-sudo cp -a ./.vim/. ~/.vim
+sudo cp -r ./.vim/* ~/.vim/
 
