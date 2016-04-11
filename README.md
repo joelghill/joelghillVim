@@ -12,9 +12,15 @@ cd joelghillVim
 ```
 
 ## Included Plugins
+
 nerdTree (Ctrl+n): File Browser
+
 quick-scope: Horizontal navigation assistance
+
 syntastic: Syntax checking
+
 vim-airline: Improved status bar
+
 vim-colorschemes: Colors!
+
 vim-fugitive: Git
