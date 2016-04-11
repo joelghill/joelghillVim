@@ -23,5 +23,5 @@ fi
 mkdir ~/.vim
 echo "Using sudo for copy operations...."
 sudo cp ./.vimrc ~/.vimrc;
-sudo cp -r ./.vim/* ~/.vim/
+sudo cp -a ./.vim/. ~/.vim
 
