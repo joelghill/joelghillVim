@@ -19,9 +19,13 @@ autocmd BufRead,BufWritePre *.sh normal gg=G
 "misc....
 set number
 set background=dark
+set t_Co=256
 syntax on
+set encoding=utf-8
 
-colorscheme material-theme 
+set mouse=a
+
+colorscheme peaksea 
 
 set nofoldenable    " disable folding
 
@@ -41,4 +45,6 @@ let g:syntastic_check_on_wq = 0
 " Syntastic quiet warnings
 
 "make vim-airline work
+let g:airline_powerline_fonts = 1
 set laststatus=2
+set guifont=Source\ Code\ Pro\ for\ Powerline:h11 
