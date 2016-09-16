@@ -25,7 +25,7 @@ set encoding=utf-8
 
 set mouse=a
 
-colorscheme peaksea 
+colorscheme tender 
 
 set nofoldenable    " disable folding
 
@@ -47,4 +47,9 @@ let g:syntastic_check_on_wq = 0
 "make vim-airline work
 let g:airline_powerline_fonts = 1
 set laststatus=2
-set guifont=Source\ Code\ Pro\ for\ Powerline:h11 
+set guifont=SourceCodePro:h11
+
+"enable tender airline theme
+let g:tender_airline = 1
+"set airline theme
+let g:airline_theme = 'tenderplus'

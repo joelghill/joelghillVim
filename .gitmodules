@@ -19,3 +19,6 @@
 [submodule ".vim/vim-pathogen"]
 	path = .vim/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule ".vim/bundle/tender.vim"]
+	path = .vim/bundle/tender.vim
+	url = https://github.com/jacoborus/tender.vim
